@@ -37,7 +37,7 @@
 
 <main class="container mt-5 d-flex flex-column min-vh-100">
         <section class="card shadow p-4">
-            <form class="needs-validation" novalidate action="../acciones/accionBuscarPersona.php" id="loginForm" method="post" enctype="multipart/form-data">
+            <form class="needs-validation" novalidate action="../acciones/resultado.php" id="loginForm" method="get" enctype="multipart/form-data">
                             <h2 class="mb-4 text-primary">Busqueda de Persona</h2>
 
                             <div class="row mb-6">

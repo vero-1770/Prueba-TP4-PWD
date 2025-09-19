@@ -51,6 +51,7 @@ function validar() {
 
 // Evento en tiempo real
 divNombre.addEventListener("input", validar);
+divApellido.addEventListener("input", validar);
 
 // Evento al enviar formulario
 document.getElementById("loginForm").addEventListener("submit", function (event) {
